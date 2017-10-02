@@ -1,0 +1,20 @@
+version: 1.1.{build}
+environment:
+  nodejs_version: 6
+  npm_auth_token:
+    secure: gDTHA9QjBdmoO60IloJNdDQT1ejY8bu4jAVZZvJVljA48vH6vX5AjkNylpx0eVpT
+  matrix:
+  - {}
+install:
+- ps: >-
+    Install-Product node $env:nodejs_version
+
+    "//registry.npmjs.org/:_authToken=$env:npm_auth_token`n" | out-file "$env:userprofile\.npmrc" -Encoding ASCII
+
+    npm install
+
+    $p = Get-Content 'package.json' -raw | ConvertFrom-Json
+    $p.version = $env:APPVEYOR_BUILD_VERSION
+    $p | ConvertTo-Json  | set-content 'package.json' -force
+build_script:
+- ps: npm publish
