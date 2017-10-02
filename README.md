@@ -1,4 +1,4 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/github/viperx77/qlik-cli?svg=true)](https://ci.appveyor.com/project/viperx77/qlik-cli)
+[![Build status](https://ci.appveyor.com/api/projects/status/gio9w8mqglhn5g0j?svg=true)](https://ci.appveyor.com/project/tombrothers/qlik-cli)
 
 # qlik-cli
 
