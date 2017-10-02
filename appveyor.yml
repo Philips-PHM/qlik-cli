@@ -20,4 +20,4 @@ install:
     $p | ConvertTo-Json  | set-content 'package.json' -force
     
 build_script:
-- ps: npm publish
+- ps: npm publish --tag dev
