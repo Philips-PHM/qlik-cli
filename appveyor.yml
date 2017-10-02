@@ -1,4 +1,4 @@
-version: 1.1.{build}
+version: 1.0.0-{build}
 environment:
   nodejs_version: 6
   npm_auth_token:
@@ -14,7 +14,10 @@ install:
     npm install
 
     $p = Get-Content 'package.json' -raw | ConvertFrom-Json
+    
     $p.version = $env:APPVEYOR_BUILD_VERSION
+    
     $p | ConvertTo-Json  | set-content 'package.json' -force
+    
 build_script:
 - ps: npm publish
