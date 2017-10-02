@@ -1,5 +1,7 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/gio9w8mqglhn5g0j?svg=true)](https://ci.appveyor.com/project/tombrothers/qlik-cli)
 
+[![npm version](https://badge.fury.io/js/qlik-cli.svg)](https://badge.fury.io/js/qlik-cli)
+
 # qlik-cli
 
 A command line tool to import/export apps from Qlik Sense Desktop or Server
