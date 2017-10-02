@@ -1,0 +1,29 @@
+{
+  "name": "qlik-cli",
+  "version": "1.0.2",
+  "description": "Import/Export tool for Qlik Apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "qlik-cli": "./index.js"
+  },  
+  "author": "Tom Brothers",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "enigma.js": "2.0.2",
+    "js-beautify": "^1.7.3",
+    "lodash": "^4.17.4",
+    "promise": "^8.0.1",
+    "serializeapp": "^3.0.0",
+    "sort-object": "^3.0.2",
+    "ws": "^3.2.0",
+    "yargs": "^9.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/viperx77/qlik-cli"
+  }
+}
