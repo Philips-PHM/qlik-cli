@@ -11,7 +11,7 @@ The qlik-cli is a tool that enables Qlik Sense applications to integrate into a 
 
 ## Running Locally
 
-Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
+Make sure you have [Node.js](http://nodejs.org/) installed.
 
 ## Documentation
 
