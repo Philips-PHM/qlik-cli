@@ -8,7 +8,7 @@
   },
   "bin": {
     "qlik-cli": "./index.js"
-  },  
+  },
   "author": "Tom Brothers",
   "license": "ISC",
   "dependencies": {
