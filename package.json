@@ -1,6 +1,6 @@
 {
   "name": "qlik-cli",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "Import/Export tool for Qlik Apps",
   "main": "index.js",
   "scripts": {
