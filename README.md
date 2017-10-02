@@ -1,3 +1,5 @@
+[![Build Status](https://ci.appveyor.com/api/projects/status/github/viperx77/qlik-cli?svg=true)](https://ci.appveyor.com/project/viperx77/qlik-cli)
+
 # qlik-cli
 
 A command line tool to import/export apps from Qlik Sense Desktop or Server
