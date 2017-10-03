@@ -37,5 +37,9 @@ Options:
   --help               Show help                                                                                                             [boolean]
 ```
 
+## Compatibility
+
+This tool was tested with Desktop 3.2.2 and Hub 3.2.1
+
 
 
