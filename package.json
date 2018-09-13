@@ -2,7 +2,7 @@
   "name": "qlik-cli",
   "version": "1.0.0",
   "description": "Import/Export tool for Qlik Apps",
-  "license" : "BSD-3-Clause",
+  "license": "ISC",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,10 +11,10 @@
     "qlik-cli": "./index.js"
   },
   "author": "Tom Brothers",
-  "license": "ISC",
   "dependencies": {
     "chalk": "^2.1.0",
     "enigma.js": "2.0.2",
+    "fs-extra": "^7.0.0",
     "js-beautify": "^1.7.3",
     "lodash": "^4.17.4",
     "promise": "^8.0.1",
