@@ -21,6 +21,7 @@ qlik-cli
 
 Commands:
   export <app>  Export Qlik App to json files
+  exportAll [app]  Export all Qlik Apps matching app
   import <app>  Import Qlik App from json files
   importAll     Import all Qlik Apps
 
